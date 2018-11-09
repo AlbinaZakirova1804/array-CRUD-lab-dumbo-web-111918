@@ -11,18 +11,18 @@ def add_element_to_end_of_array(my_array, element)
 end
 
 def add_element_to_start_of_array(my_array, element)
-  my_array.shift(element)
+  my_array.unshift(element)
 end
 
-def remove_element_from_end_of_array(array)
-  
+def remove_element_from_end_of_array(my_array)
+  my_array.pop
 end
 
-def remove_element_from_start_of_array(array)
-  
+def remove_element_from_start_of_array(my_array)
+  my_array.shift
 end
 
-def retrieve_element_from_index(array, index_number)
+def retrieve_element_from_index(my_)
   
 end
 
