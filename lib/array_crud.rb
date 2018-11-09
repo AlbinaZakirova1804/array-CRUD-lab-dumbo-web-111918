@@ -31,6 +31,9 @@ def retrieve_first_element_from_array(my_array)
 end
 
 def retrieve_last_element_from_array(my_array)
-  last_index = my_array.count
-  return my_array[last_index]
+  index = 0
+  while index < my_array.count
+    index + = 1
+  end
+  return my_array[index]
 end
